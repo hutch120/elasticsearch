@@ -8,7 +8,7 @@ example:
 
 [source,js]
 --------------------------------------------------
-$ curl -XGET 'http://localhost:9200/twitter/tweet/_search?q=user:kimchy'
+$ curl -XGET 'http://localhost:9200/twitter/tweet/_search?q=user=kimchy'
 --------------------------------------------------
 
 And here is a sample response:
